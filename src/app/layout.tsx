@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "IssueSolved inc",
-  description: "Cloud and AI Consulting",
+  title: "Alternem inc",
+  description: "Be Chill, Be Creative and Have fun",
 };
 
 export default function RootLayout({
