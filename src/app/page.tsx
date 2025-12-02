@@ -11,8 +11,8 @@ export default function Home() {
             subtitle="Inc"
             tagLine="Be Chill, Be Creative and Have fun"
             className="bg-black text-neutral-600"
+            link="https://www.createvideo.cloud"
             />
-            <a href="http://www.createvideo.cloud" className="w-full mt-6 bg-black text-neutral-600"> Make gifts with CreateVideo.cloud by Alternem </a>
       </main>
     </div>
   );
