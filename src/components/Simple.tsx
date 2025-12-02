@@ -6,9 +6,10 @@ interface Props {
   subtitle?: string,
   tagLine?: string,
   className?: string,
+  link?: string,
 }
 
-export function Simple({title, subtitle, tagLine, className}: Props) {
+export function Simple({title, subtitle, tagLine, className, link}: Props) {
 
   return (
     <BackgroundBeamsWithCollision className={`flex flex-col min-h-full ${className}`}>
@@ -24,6 +25,7 @@ export function Simple({title, subtitle, tagLine, className}: Props) {
         </div>
         <br /> <label className="text-xl font-medium text-neutral-600">{tagLine}</label>
       </h2>
+      { link && (<a href={link} className="w-full mt-6 bg-black text-neutral-600"> Make gifts with CreateVideo.cloud by Alternem </a>) }
     </BackgroundBeamsWithCollision>
   );
 }
