@@ -24,7 +24,7 @@ export function Simple({title, subtitle, tagLine, className, link}: Props) {
           </div>
         </div>
         <br /> <label className="text-xl font-medium text-neutral-600">{tagLine}</label>
-        <div className="w-full mt-6">{ link && (<a href={link} className="text-sm font-normal text-neutral-600">With CreateVideo.cloud by Alternem </a>) }</div>
+        <div className="w-full mt-6">{ link && (<a href={link} className="text-md font-normal text-neutral-600">with <span className="text-gray-200">CreateVideo.cloud</span> </a>) }</div>
       </h2>
     </BackgroundBeamsWithCollision>
   );
